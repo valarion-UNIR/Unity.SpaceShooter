@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb96897c0f8d264887c091d4eaeb2eb, type: 3}
+  m_Name: GameDefinition
+  m_EditorClassIdentifier: 
+  levels:
+  - waves:
+    - spawnDelay: 2
+      Enemy: {fileID: 6450448988963855362, guid: b1ae8717eb636f4459cc857691ac9e58, type: 3}
+      spawnPointType: 2
+    - spawnDelay: 2
+      Enemy: {fileID: 6450448988963855362, guid: b1ae8717eb636f4459cc857691ac9e58, type: 3}
+      spawnPointType: 8
+    - spawnDelay: 2
+      Enemy: {fileID: 6450448988963855362, guid: b1ae8717eb636f4459cc857691ac9e58, type: 3}
+      spawnPointType: 4
+    - spawnDelay: 5
+      Enemy: {fileID: 6450448988963855362, guid: b1ae8717eb636f4459cc857691ac9e58, type: 3}
+      spawnPointType: 10
+    - spawnDelay: 5
+      Enemy: {fileID: 6450448988963855362, guid: b1ae8717eb636f4459cc857691ac9e58, type: 3}
+      spawnPointType: -1
+  - waves:
+    - spawnDelay: 2
+      Enemy: {fileID: 6450448988963855362, guid: b1ae8717eb636f4459cc857691ac9e58, type: 3}
+      spawnPointType: 10
+    - spawnDelay: 2
+      Enemy: {fileID: 6450448988963855362, guid: b1ae8717eb636f4459cc857691ac9e58, type: 3}
+      spawnPointType: 4
+    - spawnDelay: 5
+      Enemy: {fileID: -8890337459833087286, guid: 69db2fd7a8c31f04896e8f8ff939e328, type: 3}
+      spawnPointType: 10
+    - spawnDelay: 2
+      Enemy: {fileID: 6450448988963855362, guid: b1ae8717eb636f4459cc857691ac9e58, type: 3}
+      spawnPointType: 4
+    - spawnDelay: 2
+      Enemy: {fileID: 6450448988963855362, guid: b1ae8717eb636f4459cc857691ac9e58, type: 3}
+      spawnPointType: -1
+  - waves:
+    - spawnDelay: 2
+      Enemy: {fileID: 6450448988963855362, guid: b1ae8717eb636f4459cc857691ac9e58, type: 3}
+      spawnPointType: 10
+    - spawnDelay: 3
+      Enemy: {fileID: -8890337459833087286, guid: 69db2fd7a8c31f04896e8f8ff939e328, type: 3}
+      spawnPointType: 4
+    - spawnDelay: 5
+      Enemy: {fileID: -8890337459833087286, guid: 69db2fd7a8c31f04896e8f8ff939e328, type: 3}
+      spawnPointType: 10
+  - waves:
+    - spawnDelay: 2
+      Enemy: {fileID: 6450448988963855362, guid: b1ae8717eb636f4459cc857691ac9e58, type: 3}
+      spawnPointType: -1
+    - spawnDelay: 2
+      Enemy: {fileID: 6450448988963855362, guid: b1ae8717eb636f4459cc857691ac9e58, type: 3}
+      spawnPointType: 10
+    - spawnDelay: 0
+      Enemy: {fileID: -8890337459833087286, guid: 69db2fd7a8c31f04896e8f8ff939e328, type: 3}
+      spawnPointType: 4
+    - spawnDelay: 5
+      Enemy: {fileID: -8890337459833087286, guid: 69db2fd7a8c31f04896e8f8ff939e328, type: 3}
+      spawnPointType: 10
+    - spawnDelay: 0
+      Enemy: {fileID: 8331183991733966950, guid: 34faad19b675f9044b8227f0d50162a2, type: 3}
+      spawnPointType: 4
+    - spawnDelay: 5
+      Enemy: {fileID: 8331183991733966950, guid: 34faad19b675f9044b8227f0d50162a2, type: 3}
+      spawnPointType: -1
+  spawns:
+  - probability: 0.2
+    prefab: {fileID: 7389078017140035456, guid: 0ab3dc45668d02d41ad130957f5aef40, type: 3}
